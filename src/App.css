@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-flow: column;
+}
+
+.container--counter {
+  padding: 1rem;
+  margin: 10px 20px;
+
+  border: 1px solid #ee22ee;
+  border-radius: 12px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+}
+.btn-container > button {
+  flex: 1;
+  cursor: pointer;
+  background: #e2ee2e;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  border: 6px solid transparent;
+  margin: 10px 20px;
+}
